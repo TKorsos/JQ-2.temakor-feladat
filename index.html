@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JQuery - feladat 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+
+  <body>
+
+    <h2>JQ Get, Set</h2>
+
+    <div id="getset1">
+      <p><b>Lorem ipsum dolor</b> sit amet, consectetur adipisicing elit. Aspernatur rerum eaque repudiandae temporibus quidem quia obcaecati iusto tenetur iste totam? Modi, placeat cum perferendis porro voluptas commodi vero hic? Perspiciatis?</p>
+
+      <div>
+        <button>text()</button>
+        <button>text(value)</button>
+      </div>
+
+    </div>
+
+    <div id="getset2">
+      <p><b>Lorem ipsum dolor</b> sit amet, consectetur adipisicing elit. Aspernatur rerum eaque repudiandae temporibus quidem quia obcaecati iusto tenetur iste totam? Modi, placeat cum perferendis porro voluptas commodi vero hic? Perspiciatis?</p>
+
+      <div>
+        <button>html()</button>
+        <button>html(value)</button>
+      </div>
+
+    </div>
+
+    <div id="getset3">
+      <p><b>Lorem ipsum dolor</b> sit amet, consectetur adipisicing elit. <span title="span"><i>Aspernatur</i></span> rerum eaque repudiandae temporibus quidem quia obcaecati iusto tenetur iste totam? Modi, placeat cum perferendis porro voluptas commodi vero hic? Perspiciatis?</p>
+
+      <div>
+        <button>attr()</button>
+        <button>attr(value)</button>
+      </div>
+
+    </div>
+
+    <div id="getset4">
+      <p>
+        <div><input type="text" value="kezdőérték"></div>
+      </p>
+
+      <div>
+        <button>val()</button>
+        <button>val(value)</button>
+      </div>
+
+    </div>
+
+    <h2>JQ Tartalom beszúrása</h2>
+
+    <div id="jqbeszur">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur rerum eaque repudiandae temporibus quidem quia obcaecati iusto tenetur iste totam? Modi, placeat cum perferendis porro voluptas commodi vero hic? Perspiciatis?</p>
+
+      <div>
+        <button>append()</button>
+        <button>prepend()</button>
+        <button>before()/after()</button>
+        <button>több before()/after()</button>
+      </div>
+
+    </div>
+
+    <h2>JQ eltávolítás</h2>
+
+    <div id="jqdelete">
+      <div>
+        <p>Lorem ipsum <span title="title"><b>dolor sit amet</b></span>, consectetur adipisicing elit. Aspernatur rerum eaque repudiandae temporibus quidem quia obcaecati iusto tenetur iste totam? Modi, placeat cum perferendis porro voluptas commodi vero hic? Perspiciatis?</p>
+      </div>
+
+      <div>
+        <button>empty()</button>
+        <button>remove()</button>
+        <button>removeAttr()</button>
+      </div>
+
+    </div>
+
+    <h2>JQ css osztályok hozzáadása</h2>
+
+    <div id="class">
+      <p class="border">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur rerum eaque repudiandae temporibus quidem quia obcaecati iusto tenetur iste totam? Modi, placeat cum perferendis porro voluptas commodi vero hic? Perspiciatis?</p>
+
+      <div>
+        <button>addClass()</button>
+        <button>removeClass()</button>
+      </div>
+
+    </div>
+
+    <h2>JQ dimenziók</h2>
+
+    <div id="dimenzio">
+      <p>
+        <div id="dim" style="border: 1px solid; width: 200px; height: 200px; padding: 10px; margin: 10px;"></div>
+      </p>
+
+      <div>
+        <button>width()/height()</button>
+        <button>width(value)/height(value)</button>
+        <button>innerWidth()/innerHeight()</button>
+        <button>innerWidth(value)/innerHeight(value)</button>
+        <button>outerWidth()/outherHeight()</button>
+        <button>outerWidth(true)/outherHeight(true)</button>
+      </div>
+
+    </div>
+
+    <h2>JQ elérés</h2>
+
+    <div id="eleres">
+      <div id="root">
+        <div>div1
+          <ul>ul
+            <li>li</li>
+            <li>li</li>
+            <li>li</li>
+          </ul>
+        </div>
+        <p>p1</p>
+        <h2>h2</h2>
+        <p>p2</p>
+        <div>div2</div>
+        <p>p3</p>
+        <div>div3</div>
+        <h3>h3</h3>
+        <div>div4</div>
+        <div>div5</div>
+        <h3>h3</h3>
+        <p>p4</p>
+      </div>
+
+      <div>
+        <button style="display: none;">Módosít</button>
+      </div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+
+</html>
